@@ -1,0 +1,195 @@
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+  
+}
+
+body {
+  font-family: "Montserrat";
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h1 {
+  
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.color{
+  display:inline-block;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7.5%;
+  width: 100%;
+}
+
+.allign{
+  text-align: left;
+
+}
+.text {
+  margin-bottom: 50px;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.nav-item {
+  margin: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.button-target {
+  /* angela suggested these margins*/
+  margin: 5% 3% 5% 0;
+}
+
+
+
+.arrow{
+  position: absolute;
+  right : 10px;
+}
+
+.smalltext {
+  color: #8f8f8f;
+  /* padding: 5%; */
+}
+
+.posterimage {
+  transform: rotate(25deg);
+  /* padding-top: 1.8rem;
+  margin-left: 3rem; */
+  right: 30%;
+  width: 60%;
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials {
+  
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.cred-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  
+  padding: 100px;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1060px) {
+  #title {
+    text-align: center;
+  }
+  .posterimage {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  
+  background-color: #ff4c68;
+}
+
+.cta-text {
+  
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 4rem;
+  padding: 100px 200px 0;
+  line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+  
+  padding: 50px;
+}
+
+.pad{
+  margin: 10px;
+  
+}
